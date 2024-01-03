@@ -37,7 +37,7 @@ function App() {
         Password Generator
       </h1>
       <div className="my-4 rounded-md bg-white border ">
-        <div className="flex flex-col w-full  mb-1 items-center  ">
+        <div className="flex flex-col mb-5 w-full  mb-1 items-center  ">
           <div className="px-4 py-3.5 w-full flex justify-between text-sm font-normal text-gray-700">
             <p>Password</p>
             <button
@@ -57,7 +57,7 @@ function App() {
             ref={passwordRef}
           />
         </div>
-        <div className="flex cursor-pointer w-full gap-3 flex-col p-3.5 items-center rounded-md bg-white">
+        <div className="flex cursor-pointer w-full gap-3 flex-col p-4 pb-5 items-center rounded-md bg-white">
           <div className=" flex items-center">
             <input
               type="range"
